@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="abb_irb6700_200_260">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import abb_irb6700_200_260 urdf file -->
+    <xacro:include filename="$(find abb_irb6700_config)/config/abb_irb6700_200_260_macro.srdf.xacro" />
+
+
+</robot>
+

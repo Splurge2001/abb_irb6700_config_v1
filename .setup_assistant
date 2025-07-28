@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: abb_irb6700_support
+    relative_path: urdf/irb6700_200_260.xacro
+  srdf:
+    relative_path: config/abb_irb6700_200_260.srdf.xacro
+  package_settings:
+    author_name: heng
+    author_email: hang-wu23@mails.tsinghua.edu.cn
+    generated_timestamp: 1753265540
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
